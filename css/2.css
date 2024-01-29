@@ -1,0 +1,15 @@
+.gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    list-style-type: none;
+}
+.list-item{
+    width: calc(100% / 3 - 10px);
+}
+.list-item img{
+    display: block;
+    width: 100%;
+}
